@@ -4,4 +4,18 @@
 @tailwind utilities;
 :root {
   font-family: "DM Sans", sans-serif;
+}
+
+section h2,
+section h1,
+section h3 {
+  color: hsl(25, 47%, 15%);
+  font-weight: 800;
+}
+section p {
+  color: hsl(28, 10%, 53%);
+}
+
+header {
+  color: hsl(33, 100%, 98%);
 }/*# sourceMappingURL=index.css.map */
