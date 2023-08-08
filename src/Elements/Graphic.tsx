@@ -48,7 +48,7 @@ const Graphic: React.FC<Props> = ({ data }) => {
   };
 
   return (
-    <section className="bg-very-pale-orange rounded-3xl p-10 mt-6">
+    <section className="bg-very-pale-orange rounded-3xl sm:rounded-xl p-10 mt-6">
       <h2 className="text-3xl">Spending - Last 7 days</h2>
       <BarChart
         width={getChartWidth()}
@@ -93,10 +93,10 @@ const Graphic: React.FC<Props> = ({ data }) => {
         </Bar>
       </BarChart>
       <hr className="mt-5" />
-      <div className="flex items-center mt-5">
+      <div className="flex items-end mt-5">
         <div className="flex flex-col">
           <p>Total the month</p>
-          <h1 className="text-5xl">$478.33</h1>
+          <h1 className="text-5xl sm:text-3xl">$478.33</h1>
         </div>
         <div className="flex flex-col text-right ml-auto">
           <h3>+2.4%</h3>

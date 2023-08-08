@@ -12,6 +12,9 @@ export default {
         cream: "hsl(27, 66%, 92%)",
         "very-pale-orange": "hsl(33, 100%, 98%)",
       },
+      screens: {
+        sm: { max: "500px" },
+      },
     },
   },
   plugins: [],
