@@ -1,15 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  Cell,
-  BarProps,
-} from "recharts";
+import { BarChart, Bar, XAxis, Tooltip, Cell } from "recharts";
 
 interface DataItem {
   day: string;
@@ -48,7 +38,7 @@ const Graphic: React.FC<Props> = ({ data }) => {
   };
 
   return (
-    <section className="bg-very-pale-orange rounded-3xl sm:rounded-xl p-10 mt-6">
+    <section className="bg-very-pale-orange rounded-3xl sm:rounded-xl p-10 mt-6 anim-top-1">
       <h2 className="text-3xl">Spending - Last 7 days</h2>
       <BarChart
         width={getChartWidth()}
